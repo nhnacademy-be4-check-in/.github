@@ -1,6 +1,6 @@
 # 📖 CKIN
 
-NHN Academy 4기 - Check In 팀 
+NHN Academy 4기 - CKIN 팀 
 
 ## Member
 <div align="center">
