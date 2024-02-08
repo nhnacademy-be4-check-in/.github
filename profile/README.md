@@ -1,4 +1,4 @@
-# 📖 Check-In
+# 📖 CKIN
 
 NHN Academy 4기 - Check In 팀 
 
