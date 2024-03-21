@@ -13,7 +13,7 @@
 | <a href="https://github.com/f1v3-dev"><img src="https://github.com/f1v3-dev.png" width="100px"><br/>정승조</a> | <a href="https://github.com/dduneon"><img src="https://github.com/dduneon.png" width="100px"><br/>김준현</a> | <a href="https://github.com/devhomh"><img src="https://github.com/devhomh.png" width="100px"><br/>이진우</a> | <a href="https://github.com/nayoseb"><img src="https://github.com/nayoseb.png" width="100px"><br/>나국로</a> | <a href="https://github.com/nueag"> <img src ="https://github.com/nueag.png" width="100px"><br/>이가은</a> |<a href="https://github.com/unhas01"><img src="https://github.com/unhas01.png" width="100px"><br/>박경서(TA)</a>
 |-----|-----|-----|-----|-----|-----|
 
-**프로젝트 기간 : 2024.02.07. ~ 2024.03.28**
+
 </div>
 
 <br/>
@@ -47,6 +47,8 @@
 
 
 # 📄 About the Project
+
+**프로젝트 기간 : 2024.02.07. ~ 2024.03.28**
 
 스프링 부트와 클라우드 서비스를 활용한 온라인 도서 쇼핑몰 프로젝트입니다.
   
