@@ -51,6 +51,53 @@
 **프로젝트 기간 : 2024.02.07. ~ 2024.03.28**
 
 스프링 부트와 클라우드 서비스를 활용한 온라인 도서 쇼핑몰 프로젝트입니다.
+
+## 개발 환경
+
+### 개발 도구
+- Intellij IDEA - Ultimate
+
+### Language
+- [Java 11 LTS (Eclipse Temurin)](https://adoptium.net/temurin/releases/?version=11)
+
+### Build Tools
+- Maven
+
+### Develop
+- [Spring Framework : 5.x](https://spring.io/)
+- Spring Boot : 2.7.18
+- Spring Cloud Config, Gateway, Netflix Eureka
+- Spring Data JPA, Querydsl
+- Spring Security
+- Spring Rest Docs
+- Spring Batch
+
+### Test 
+- Junit5
+- AssertJ
+- Mockito
+- SonarQube
+
+### Database
+- MySQL : 8.x
+- Redis
+
+### Search Engine
+- Elastic Search : 7.x
+
+### ERD
+- ERDCloud
+
+### NHN Cloud
+- Instance
+- Secure Key Manager
+- Object Storage
+- Load Balancer
+
+### ETC.
+- Dooray Hook Sender
+- Toast UI
+
   
 ## Technologies
 ***언어, 프레임워크, 주요 라이브러리**를 **버전**과 함께 나열하세요.*
