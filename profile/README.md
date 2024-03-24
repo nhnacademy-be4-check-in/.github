@@ -36,7 +36,6 @@
 - [About the Project](#-about-the-project)
     - [Technologies](#technologies)
     - [Project Management](#project-management)
-- [Getting Started](#-getting-started)
 - [Features](#-features)
 
 # 📄 About the Project
@@ -191,35 +190,6 @@
 - [커밋 컨벤션](https://github.com/nhnacademy-be4-ckin/ckin-api/wiki/%EC%BB%A4%EB%B0%8B-%EC%BB%A8%EB%B2%A4%EC%85%98)
 - [자바 컨벤션](https://github.com/nhnacademy-be4-ckin/ckin-api/wiki/%EC%9E%90%EB%B0%94-%EC%BB%A8%EB%B2%A4%EC%85%98)
 - [상태 코드](https://github.com/nhnacademy-be4-ckin/ckin-api/wiki/%EC%83%81%ED%83%9C-%EC%BD%94%EB%93%9C)
-
-# ⛳️ Getting Started
-
-> api 서버를 기준으로 설명합니다.  
-> 다른 서버를 시작하고 싶으시다면, git clone 주소의 맨 마지막에 레포지토리 명을 수정해주세요.
-
-1. Repository 클론
-
-```bash
-git clone https://github.com/nhnacademy-be4-ckin/ckin-api
-```
-
-2. ckin-api 폴더로 이동
-
-```bash
-cd ckin-api
-```
-
-3. maven project build
-
-```bash
-./mvnw clean install
-```
-
-4. spring boot 실행
-
-```bash
-./mvnw spring-boot:run
-```
 
 # 🎨 Features
 
