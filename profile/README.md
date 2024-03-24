@@ -7,17 +7,15 @@
     <img width="40%" heigth="40%" style="text-align: center" 
       src="https://github.com/nhnacademy-be4-ckin/.github/assets/84575041/3ad87d06-6600-490a-afaa-8360c2cc7970"/>
   </a> 
-  
-  <h3> NHN Academy 4기 - CKIN 팀 </h3>
-  
-| <a href="https://github.com/f1v3-dev"><img src="https://github.com/f1v3-dev.png" width="100px"><br/>정승조</a> | <a href="https://github.com/dduneon"><img src="https://github.com/dduneon.png" width="100px"><br/>김준현</a> | <a href="https://github.com/devhomh"><img src="https://github.com/devhomh.png" width="100px"><br/>이진우</a> | <a href="https://github.com/nayoseb"><img src="https://github.com/nayoseb.png" width="100px"><br/>나국로</a> | <a href="https://github.com/nueag"> <img src ="https://github.com/nueag.png" width="100px"><br/>이가은</a> |<a href="https://github.com/unhas01"><img src="https://github.com/unhas01.png" width="100px"><br/>박경서(TA)</a>
-|-----|-----|-----|-----|-----|-----|
 
+  <h3> NHN Academy 4기 - CKIN 팀 </h3>
+
+| <a href="https://github.com/f1v3-dev"><img src="https://github.com/f1v3-dev.png" width="100px"><br/>정승조</a> | <a href="https://github.com/dduneon"><img src="https://github.com/dduneon.png" width="100px"><br/>김준현</a> | <a href="https://github.com/devhomh"><img src="https://github.com/devhomh.png" width="100px"><br/>이진우</a> | <a href="https://github.com/nayoseb"><img src="https://github.com/nayoseb.png" width="100px"><br/>나국로</a> | <a href="https://github.com/nueag"> <img src ="https://github.com/nueag.png" width="100px"><br/>이가은</a> | <a href="https://github.com/unhas01"><img src="https://github.com/unhas01.png" width="100px"><br/>박경서(TA)</a> 
+|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
 
 </div>
 
 <br/>
-
 
 ## 🌎 Repository
 
@@ -33,18 +31,13 @@
 
 ---
 
-<!--목차-->
 # 🚩 Table of Contents
 
 - [About the Project](#-about-the-project)
-  - [Technologies](#technologies)
-  - [Project Management](#project-management)
+    - [Technologies](#technologies)
+    - [Project Management](#project-management)
 - [Getting Started](#-getting-started)
-  - [Install](#install)
-  - [Configuration](#configuration)
 - [Features](#-features)
-
-
 
 # 📄 About the Project
 
@@ -55,15 +48,19 @@
 ## 개발 환경
 
 ### 개발 도구
+
 - Intellij IDEA - Ultimate
 
 ### Language
+
 - [Java 11 LTS (Eclipse Temurin)](https://adoptium.net/temurin/releases/?version=11)
 
 ### Build Tools
+
 - Maven
 
 ### Develop
+
 - [Spring Framework : 5.x](https://spring.io/)
 - Spring Boot : 2.7.18
 - Spring Cloud Config, Gateway, Netflix Eureka
@@ -72,65 +69,69 @@
 - Spring Rest Docs
 - Spring Batch
 
-### Test 
+### Test
+
 - Junit5
 - AssertJ
 - Mockito
 - SonarQube
 
 ### Database
+
 - MySQL : 8.x
 - Redis
 
 ### Search Engine
+
 - Elastic Search : 7.x
 
 ### ERD
+
 - ERDCloud
 
 ### NHN Cloud
+
 - Instance
 - Secure Key Manager
 - Object Storage
 - Load Balancer
 
 ### ETC.
+
 - Dooray Hook Sender
 - Toast UI
 
-  
 ## Technologies
-***언어, 프레임워크, 주요 라이브러리**를 **버전**과 함께 나열하세요.*
 
-> 뭘 어떻게 해야할지 모르겠어서 일단 막 넣어놨는데 추가하고싶으시면 [markdown-badges](https://ileriayo.github.io/markdown-badges/) 들어가서 `cmd+f`로 찾아서 넣어주세요 !  
+> 뭘 어떻게 해야할지 모르겠어서 일단 막 넣어놨는데 추가하고싶으시면  
+> [markdown-badges](https://ileriayo.github.io/markdown-badges/) 들어가서 `cmd+f`로 찾아서 넣어주세요 !  
 > 정리는 나중에 하겠습니다..
 
-
 ### Develop
+
 ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![ElasticSearch](https://img.shields.io/badge/-ElasticSearch-005571?style=for-the-badge&logo=elasticsearch)
 
 ![Thymeleaf](https://img.shields.io/badge/Thymeleaf-%23005C0F.svg?style=for-the-badge&logo=Thymeleaf&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
 
-
-
 ### CI/CD
+
 ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
- 
+
 ### Environment & Tools
+
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![SonarQube](https://img.shields.io/badge/SonarQube-black?style=for-the-badge&logo=sonarqube&logoColor=4E9BCD) ![SonarLint](https://img.shields.io/badge/SonarLint-CB2029?style=for-the-badge&logo=SONARLINT&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
-
 ### ER-Diagram
-> CKIN ERD : https://www.erdcloud.com/d/EyTBN2QQFWJETxvNK
-> ## !!!아래 이미지에서도 메모지 빼서 다시 올려야 할 것 같아요 !!!
+
+> CKIN ERD : https://www.erdcloud.com/d/9aZQ5oDB87BGD2v8k
 
 - `ERDCloud` 활용
 
+![image](https://github.com/nhnacademy-be4-ckin/.github/assets/84575041/be903ed1-65c4-4807-90b4-22c0cf6b7e81)
 
-![image](https://github.com/nhnacademy-be4-ckin/ckin-api/assets/84575041/daeaa599-9eba-4a1e-81d4-cdf1345e1a93)
 
 ### Service Architecture
 
@@ -139,7 +140,6 @@
 ### CI/CD
 
 > CI/CD 이미지 넣을 공간
-
 
 ## Project Management
 
@@ -172,7 +172,6 @@
 >
 > ![image](https://github.com/nhnacademy-be4-ckin/ckin-api/assets/84575041/8966dc83-347f-43b9-a87e-d46c0f44da01)
 
-
 ### Spring Rest Docs
 
 > ### !! Rest Docs 이미지 !!
@@ -184,78 +183,109 @@
 - 프로젝트를 진행하면서 학습 내용 공유 저장소를 이용하여 습득한 기술을 공유하였습니다.
 - 또한, `Issue`, `Discussion`을 통해 해결하기 어려운 문제, 버그를 고친 방법 등을 팀원들과 공유하였습니다.
 
-### Conventions & Strategy 
+### Conventions & Strategy
 
-- [Java](https://github.com/nhnacademy-be4-ckin/ckin-api/wiki/%EC%9E%90%EB%B0%94-%EC%BB%A8%EB%B2%A4%EC%85%98)
-- [Git Commit](https://github.com/nhnacademy-be4-ckin/ckin-api/wiki/%EC%BB%A4%EB%B0%8B-%EC%BB%A8%EB%B2%A4%EC%85%98)
-- [Git Branch Strategy](https://github.com/nhnacademy-be4-ckin/ckin-api/wiki/%EA%B9%83-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%A0%84%EB%9E%B5)
+- [깃 브랜치 전략](https://github.com/nhnacademy-be4-ckin/ckin-api/wiki/%EA%B9%83-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%A0%84%EB%9E%B5)
+- [커밋 컨벤션](https://github.com/nhnacademy-be4-ckin/ckin-api/wiki/%EC%BB%A4%EB%B0%8B-%EC%BB%A8%EB%B2%A4%EC%85%98)
+- [자바 컨벤션](https://github.com/nhnacademy-be4-ckin/ckin-api/wiki/%EC%9E%90%EB%B0%94-%EC%BB%A8%EB%B2%A4%EC%85%98)
+- [상태 코드](https://github.com/nhnacademy-be4-ckin/ckin-api/wiki/%EC%83%81%ED%83%9C-%EC%BD%94%EB%93%9C)
 
 # ⛳️ Getting Started
-
-## Install
 
 > api 서버를 기준으로 설명합니다.  
 > 다른 서버를 시작하고 싶으시다면, git clone 주소의 맨 마지막에 레포지토리 명을 수정해주세요.
 
 1. Repository 클론
+
 ```bash
 git clone https://github.com/nhnacademy-be4-ckin/ckin-api
 ```
 
 2. ckin-api 폴더로 이동
+
 ```bash
 cd ckin-api
 ```
-   
+
 3. maven project build
+
 ```bash
 ./mvnw clean install
 ```
 
 4. spring boot 실행
+
 ```bash
 ./mvnw spring-boot:run
 ```
 
-## Configuration
-*코드의 어느 부분을 채우거나 수정해야하는지 설명하세요.*
-- `config.js`에 Openweather API key를 입력
-```bash
-const API_KEY = "<Your API key>";
-```
+# 🎨 Features
 
+## [🙋🏻‍♂️ 정승조](https://github.com/f1v3-dev)
 
+### 주문
 
-## 🎨 Features
+> 관련
+>
+PR : [주문 생성](https://github.com/nhnacademy-be4-ckin/ckin-front/pull/91), [주문 취소](https://github.com/nhnacademy-be4-ckin/ckin-front/pull/181)
 
-***스크린샷, 코드** 등을 통해 **사용 방법**과 **사용 예제**를 보여주세요. 사용 예제별로 h2 헤더로 나누어 설명할 수 있습니다.*
+- 회원/비회원 주문 처리
+- 회원 주문
+    - 포인트, 쿠폰 사용 가능
+    - 적용할 수 있는 쿠폰
+- 포장 가능한 도서인 경우 포장지 선택 가능
+- 배송지 입력 ([Daum Postcode API](http://postcode.map.daum.net/guide))
+- 주문 상세 내역 조회
 
-> ### !! 주요 기능을 적어야 됩니다 !!
+### 주문 취소
 
-## 
-```java
-// 몇 개의 API 사용 예제를 코드와 함께 보여주세요.
-```
+- 주문 배송 상태가 `배송중(READ)` 인 경우에만 주문 취소 가능
+- 결제 완료된 주문
+    - Toss Payment API를 통한 결제 취소
+- 회원 주문 취소
+    - 사용 포인트, 적립금 고려하여 처리
 
+### 결제
 
+> 관련
+>
+PR : [토스 페이먼츠 API 연동](https://github.com/nhnacademy-be4-ckin/ckin-front/pull/107), [결제 - 생성](https://github.com/nhnacademy-be4-ckin/ckin-api/pull/99)
 
-# Acknowledgement
-***유사한 프로젝트의 레포지토리** 혹은 **블로그 포스트** 등 프로젝트 구현에 영감을 준 출처에 대해 링크를 나열하세요.*
+- 주문 완료 후 [Toss Payment API](https://developers.tosspayments.com)를 통한 결제 진행
+- 결제 성공/실패에 따른 처리
+    - 결제 완료 시 API 서버에 결제 정보 저장
+    - 또한, 결제 완료된 주문의 결제 상태를 완료(PAID)로 변경
+- `@Transactional의 propagation` 옵션을 통해 트랜잭션 처리
 
-- [Readme Template - Embedded Artistry](https://embeddedartistry.com/blog/2017/11/30/embedded-artistry-readme-template/)
-- [How to write a kickass Readme - James.Scott](https://dev.to/scottydocs/how-to-write-a-kickass-readme-5af9)
-- [Best-README-Template - othneildrew](https://github.com/othneildrew/Best-README-Template#prerequisites)
-- [Img Shields](https://shields.io/)
-- [Github Pages](https://pages.github.com/)
+### 포인트
 
+- 회원 가입 시 포인트 적립 정책에 따른 포인트 적립
+- 주문시 사용한 포인트 차감 및 포인트 내역 생성
+- 결제시 회원 등급에 따른 포인트 적립
+- 회원의 포인트 적립/차감 내역 조회
 
+### etc.
 
+- `Spring Cloud Netflix Eureka`
+    - 서비스 디스커버리 및 로드밸런싱
+    - 무중단 배포 구현
+- Spring AOP - `@Member` 어노테이션을 통한 Model 객체에 회원 정보 주입
+- `@ExceptionHandler`를 통한 전역 예외 처리
+- 배송비 정책 관리
+- 포인트 적립 정책 관리
+- 포장 정책 관리
 
-# License
-MIT 라이센스
-라이센스에 대한 정보는 [`LICENSE`][license-url]에 있습니다.
+## [김준현](https://github.com/dduneon)
 
+## [이진우](https://github.com/devhomh)
 
+## [나국로](https://github.com/nayoseb)
 
+## [이가은](https://github.com/nueag)
 
+## 공통 작업
 
+- JUnit5를 활용한 테스트 코드 작성
+- `Spring Rest Docs`를 활용한 API 문서화
+- CI/CD 환경 구성 (`Jenkins`, `GitHub Actions`)
+- `SonarQube`를 통한 정적 코드 분석
