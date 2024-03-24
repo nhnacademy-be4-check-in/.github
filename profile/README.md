@@ -225,9 +225,7 @@ cd ckin-api
 
 ### 주문
 
-> 관련
->
-PR : [주문 생성](https://github.com/nhnacademy-be4-ckin/ckin-front/pull/91), [주문 취소](https://github.com/nhnacademy-be4-ckin/ckin-front/pull/181)
+> 관련 PR : [주문 생성](https://github.com/nhnacademy-be4-ckin/ckin-front/pull/91), [주문 취소](https://github.com/nhnacademy-be4-ckin/ckin-front/pull/181)
 
 - 회원/비회원 주문 처리
 - 회원 주문
@@ -247,9 +245,7 @@ PR : [주문 생성](https://github.com/nhnacademy-be4-ckin/ckin-front/pull/91),
 
 ### 결제
 
-> 관련
->
-PR : [토스 페이먼츠 API 연동](https://github.com/nhnacademy-be4-ckin/ckin-front/pull/107), [결제 - 생성](https://github.com/nhnacademy-be4-ckin/ckin-api/pull/99)
+> 관련 PR : [토스 페이먼츠 API 연동](https://github.com/nhnacademy-be4-ckin/ckin-front/pull/107), [결제 - 생성](https://github.com/nhnacademy-be4-ckin/ckin-api/pull/99)
 
 - 주문 완료 후 [Toss Payment API](https://developers.tosspayments.com)를 통한 결제 진행
 - 결제 성공/실패에 따른 처리
