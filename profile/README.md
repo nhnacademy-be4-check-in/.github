@@ -139,7 +139,9 @@
 
 ### CI/CD
 
-> CI/CD 이미지 넣을 공간
+![image](https://github.com/nhnacademy-be4-ckin/.github/assets/84575041/f5f977d5-bade-4afc-90bb-44e9e4be3544)
+
+
 
 ## Project Management
 
