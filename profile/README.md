@@ -134,7 +134,8 @@
 
 ### Service Architecture
 
-> 아키텍쳐 이미지 넣을 공간
+![image](https://github.com/nhnacademy-be4-ckin/.github/assets/84575041/1a3cffac-e7eb-4bcd-b7ec-3739b96893af)
+
 
 ### CI/CD
 
