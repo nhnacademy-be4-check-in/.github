@@ -236,6 +236,8 @@
 
 ### 포인트
 
+> 관련 Discussion : [결제 완료시 포인트 적립 처리를 어떻게 해야될까?](https://github.com/nhnacademy-be4-ckin/ckin-api/discussions/133)
+
 - 회원 가입 시 포인트 적립 정책에 따른 포인트 적립
 - 주문시 사용한 포인트 차감 및 포인트 내역 생성
 - 결제시 회원 등급에 따른 포인트 적립
