@@ -132,9 +132,9 @@
 ![image](https://github.com/nhnacademy-be4-ckin/.github/assets/84575041/be903ed1-65c4-4807-90b4-22c0cf6b7e81)
 
 
-### Service Architecture
+### Architecture
 
-![image](https://github.com/nhnacademy-be4-ckin/.github/assets/84575041/1a3cffac-e7eb-4bcd-b7ec-3739b96893af)
+![image](https://github.com/nhnacademy-be4-ckin/.github/assets/84575041/a792dad2-74ac-40db-b155-677c482e50e7)
 
 
 ### CI/CD
