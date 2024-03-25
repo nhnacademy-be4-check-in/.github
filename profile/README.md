@@ -177,7 +177,12 @@
 
 ### Spring Rest Docs
 
-> ### !! Rest Docs 이미지 !!
+#### API : https://www.ckin.store/api-docs 
+![image](https://github.com/nhnacademy-be4-ckin/.github/assets/84575041/7ee21db9-aff4-47b4-8065-fb4a55ca996d)
+
+#### Coupon : https://www.ckin.store/coupon-docs
+![image](https://github.com/nhnacademy-be4-ckin/.github/assets/84575041/f1d2abd7-96d8-4f73-8a1a-0f7da098deee)
+
 
 ### 기술 공유
 
