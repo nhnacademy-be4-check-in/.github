@@ -142,8 +142,6 @@
 ![image](https://github.com/nhnacademy-be4-ckin/.github/assets/84575041/337babfb-d2ce-4106-973e-ca854647b431)
 
 
-
-
 ## Project Management
 
 > Github에서 제공하는 `Projects`를 활용하여 프로젝트 관리
@@ -170,10 +168,12 @@
 
 - 정적 코드 분석 도구인 `SonarQube`를 활용하였습니다.
 - `API Server` 테스트 커버리지입니다.
+- 목표 : Coverage 80% 
 
-> ### !! 테스트 코드 반영 후 수정해야합니다 !!
->
-> ![image](https://github.com/nhnacademy-be4-ckin/ckin-api/assets/84575041/8966dc83-347f-43b9-a87e-d46c0f44da01)
+![image](https://github.com/nhnacademy-be4-ckin/.github/assets/84575041/f331b1f5-3679-4379-be8b-1d1c69499ab5)
+
+
+
 
 ### Spring Rest Docs
 
