@@ -139,7 +139,8 @@
 
 ### CI/CD
 
-![image](https://github.com/nhnacademy-be4-ckin/.github/assets/84575041/f5f977d5-bade-4afc-90bb-44e9e4be3544)
+![image](https://github.com/nhnacademy-be4-ckin/.github/assets/84575041/337babfb-d2ce-4106-973e-ca854647b431)
+
 
 
 
