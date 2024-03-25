@@ -167,11 +167,13 @@
 ### Test Coverage
 
 - 정적 코드 분석 도구인 `SonarQube`를 활용하였습니다.
-- `API Server` 테스트 커버리지입니다.
 - 목표 : Coverage 80% 
 
+#### API
 ![image](https://github.com/nhnacademy-be4-ckin/.github/assets/84575041/f331b1f5-3679-4379-be8b-1d1c69499ab5)
 
+#### Coupon
+![image](https://github.com/nhnacademy-be4-ckin/.github/assets/84575041/edb307eb-351e-49a2-818b-83f62ee0b6cb)
 
 
 
