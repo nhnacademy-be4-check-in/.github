@@ -258,14 +258,14 @@
 
 ## [이진우](https://github.com/devhomh)
 ### 멤버
-- Spring Security
+- `Spring Security`
   - 회원의 권한에 따른 페이지 인가
   - 로그인/로그아웃
   - 페이코 연동을 이용하여 소셜 로그인
-  - JWT를 이용하여 자격증명 및 서버통신
-  - Redis를 이용하여 JWT와 매핑된 멤버 정보 조회
+  - `JWT`를 이용하여 자격증명 및 서버통신
+  - `Redis`를 이용하여 매핑된 회원 정보 조회
   - Gateway에서 Backend과 통신하기 전, 인증/인가
-  - 인증된 정보를 이용하여 JWT 발급/재발급 ([CKIN-Auth](https://github.com/nhnacademy-be4-ckin/ckin-auth))
+  - 인증된 정보를 이용하여 `JWT` 발급/재발급 ([CKIN-Auth](https://github.com/nhnacademy-be4-ckin/ckin-auth))
 - 회원가입
   - 계정 중복검사 및 비밀번호 유효성 검사
   - Dooray Hook을 이용한 SMS 인증
