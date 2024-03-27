@@ -102,14 +102,10 @@
 
 ## Technologies
 
-> 뭘 어떻게 해야할지 모르겠어서 일단 막 넣어놨는데 추가하고싶으시면  
-> [markdown-badges](https://ileriayo.github.io/markdown-badges/) 들어가서 `cmd+f`로 찾아서 넣어주세요 !  
-> 정리는 나중에 하겠습니다..
-
 ### Develop
 
 ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-%236DB33F.svg?style=for-the-badge&logo=spring-boot&logoColor=white) ![Spring Batch](https://img.shields.io/badge/Spring_Batch-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![Spring Eureka](https://img.shields.io/badge/Spring_Eureka-6DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![Spring Cloud Gateway](https://img.shields.io/badge/Spring_Cloud_Gateway-6DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![ElasticSearch](https://img.shields.io/badge/-ElasticSearch-005571?style=for-the-badge&logo=elasticsearch)
 
 ![Thymeleaf](https://img.shields.io/badge/Thymeleaf-%23005C0F.svg?style=for-the-badge&logo=Thymeleaf&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
@@ -120,7 +116,7 @@
 
 ### Environment & Tools
 
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) 
 ![SonarQube](https://img.shields.io/badge/SonarQube-black?style=for-the-badge&logo=sonarqube&logoColor=4E9BCD) ![SonarLint](https://img.shields.io/badge/SonarLint-CB2029?style=for-the-badge&logo=SONARLINT&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 ### ER-Diagram
@@ -336,6 +332,24 @@
 - 마이페이지에서 회원의 등급 조회 및 등급 정책 확인
 
 ## [나국로](https://github.com/nayoseb)
+### 상품
+- 관리자 페이지에서 상품 등록, 수정, 삭제
+- 상품 등록 시 editor 적용(toast ui)
+- 썸네일 수정 기능
+
+### 저자
+- 저자 등록, 수정, 삭제
+
+### 카테고리
+- 카테고리 생성, 수정, 조회
+- 부모 카테고리, 자식 카테고리로 이뤄진 3depth 형태
+- 메인페이지의 카테고리 캐싱(Redis)
+
+### 파입업로드
+- Object Storage 저장
+
+### 마이페이지 리뷰
+- 마이페이지에서 해당 유저가 작성한 리뷰 조회 및 수정
 
 ## [이가은](https://github.com/nueag)
 ### 쿠폰
