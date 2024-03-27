@@ -102,10 +102,6 @@
 
 ## Technologies
 
-> 뭘 어떻게 해야할지 모르겠어서 일단 막 넣어놨는데 추가하고싶으시면  
-> [markdown-badges](https://ileriayo.github.io/markdown-badges/) 들어가서 `cmd+f`로 찾아서 넣어주세요 !  
-> 정리는 나중에 하겠습니다..
-
 ### Develop
 
 ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white)
