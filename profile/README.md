@@ -282,6 +282,26 @@
 ## [나국로](https://github.com/nayoseb)
 
 ## [이가은](https://github.com/nueag)
+### 쿠폰
+- 생일쿠폰, 웰컴쿠폰, 도서쿠폰, 카테고리쿠폰 발급
+- 쿠폰 정책, 쿠폰 템플릿, 쿠폰 생성, 조회, 수정, 삭제
+### 웰컴쿠폰 지급
+- 회원가입시 웰컴쿠폰 자동 지급
+- 웰컴쿠폰 지급이 실패해도 회원가입은 성공하도록 처리
+### Spring Batch로 생일쿠폰 매달 1일에 지급
+- JPA(Hibernate), JDBC Templates, MyBatis 중 bulk insert가 가능하고 기본키 전략을 사용하지 않는 Mybatis 선택
+- `MyBatisPagingItemReader` 사용
+
+### 리뷰
+- 리뷰 등록
+- 리뷰 이미지 다중화를 통해 한 리뷰에 여러 이미지를 등록할 수 있도록 처리
+- 주문한 도서에 대해서만 리뷰를 작성할 수 있도록 처리
+- 사용기술 : Spring Data JPA, Query DSL, Thymeleaf, javascript 등
+
+### 도서 캐싱
+- 접속 빈도가 높은 메인페이지의 도서를 Redis에 저장
+- 만료시간을 하루로 설정하고 갱신하여 처리
+- 사용기술: Redis
 
 ## 공통 작업
 
