@@ -256,6 +256,62 @@
 
 ## [김준현](https://github.com/dduneon)
 
+### 장바구니
+
+> 관련 Issue : [장바구니 커스텀 알럿 추가](https://github.com/nhnacademy-be4-ckin/ckin-front/issues/209) | [상품 수량 조작 시 검증 안되는 버그](https://github.com/nhnacademy-be4-ckin/ckin-front/issues/225) | [[BUG] RedirectAttributes의 addFlashAttribute 사용시 주의](https://github.com/nhnacademy-be4-ckin/ckin-front/issues/147)
+
+- 장바구니 데이터 Redis 저장 및 분리
+  - `Interceptor` 를 이용한 Key(`CART_ID(UUID)`) 기존 DB 및 사용자 쿠키에 저장
+  - 로그인시 회원 장바구니 불러오는 기능 구현
+- 회원/비회원에 따른 쿠키 유효기간 설정
+  - 회원 - Refresh token 유효기간과 동일하게 유지 및 갱신, 로그아웃 시 삭제
+  - 비회원 - 2일 (정책)
+- 주문할 도서 담기 담기, 수량 조절 및 삭제 처리
+  - 검증 및 상품이 이미 존재하는 경우 예외 처리
+- MSA 에 따른 주문 시 주문 페이지로 정보 전달 로직 구현
+- (Front) 선택 주문, 총 합계 금액 등 JS를 통한 동적 스크립트 작성 및 구현
+
+### 검색
+
+> 관련 PR : [검색 필터링 기능 추가(검색 대상)](https://github.com/nhnacademy-be4-ckin/ckin-front/pull/235)
+
+- `Elasticsearch` 기술 사용, 검색 기능 구현
+  - 검색 우선순위에 따른 가중치 설정
+  - 필드의 특성을 고려한 인덱스 구성(analyzer, filter, tokenizer)
+  - `Dictionary` 사용한 동의어/유의어 검색 처리
+- 검색 필터링 기능으로 검색된 도서 필터링
+  - 검색 필터(책 제목, 저자, 출판사, 도서 설명), 카테고리 필터 적용
+- `Logstash` 기술 사용, 추가 및 변경된 도서 특정 시점에 `elasticsearch`에 저장
+  - 일대다 속성들(`Category, Author, Tag`)에 따른 적절한 집계 쿼리 작성 
+  - `@EntityListeners` 사용하여 `Book` Entity 추가 및 수정 시점에 `modifiedAt` 컬럼 최신화
+- `Kibana` 기술 사용, 검색 관련 정보 시각화
+
+
+### 태그
+
+- 관리자 페이지에서 태그 관리(CRUD)
+  - 한 도서에 여러개의 태그 추가 가능
+
+### etc.
+
+> 관련 기술 공유 내용 : [Spring Cloud Gateway](https://github.com/nhnacademy-be4-ckin/study-materials/tree/0e12a816d9d9e85f2fd5e8ea325bcf16c446351b/SpringCloud/Gateway) | [Secure Key Manager](https://github.com/nhnacademy-be4-ckin/study-materials/tree/0e12a816d9d9e85f2fd5e8ea325bcf16c446351b/Secure_Key_Manager)
+
+- `Spring Cloud Gateway`
+  - 마이크로서비스 기반 API Gateway 환경 구현
+
+- `Secure Key Manager`
+  - Cloud 기반 Secure Key Manager 환경 구현
+  - 암호화 필요한 데이터 관리 및 인증서 관리
+
+- `Spring Rest Docs`
+  - 환경 설정 및 기술 공유
+
+- 중복 로직 및 응답 공통화
+  - `Pagination` 관련 응답 PagedResponse 로 공통화(front, backend)
+  - Exception 발생시 Response 공통화
+  - 커스텀 Alert 유틸 로직 공통화(front)
+
+
 ## [이진우](https://github.com/devhomh)
 ### 멤버
 - `Spring Security`
