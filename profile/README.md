@@ -202,7 +202,7 @@
 
 ### 주문
 
-> 관련 PR : [주문 생성](https://github.com/nhnacademy-be4-ckin/ckin-front/pull/91), [주문 취소](https://github.com/nhnacademy-be4-ckin/ckin-front/pull/181)
+> 관련 PR : [주문 생성](https://github.com/nhnacademy-be4-ckin/ckin-front/pull/91) | [주문 취소](https://github.com/nhnacademy-be4-ckin/ckin-front/pull/181)
 
 - 회원/비회원 주문 처리
 - 회원 주문
@@ -214,7 +214,7 @@
 
 ### 주문 취소
 
-- 주문 배송 상태가 `배송중(READ)` 인 경우에만 주문 취소 가능
+- 주문 배송 상태가 `배송 중(IN_PROGRESS)` 인 경우에만 주문 취소 가능
 - 결제 완료된 주문
     - Toss Payment API를 통한 결제 취소
 - 회원 주문 취소
@@ -222,7 +222,7 @@
 
 ### 결제
 
-> 관련 PR : [토스 페이먼츠 API 연동](https://github.com/nhnacademy-be4-ckin/ckin-front/pull/107), [결제 - 생성](https://github.com/nhnacademy-be4-ckin/ckin-api/pull/99)
+> 관련 PR : [토스 페이먼츠 API 연동](https://github.com/nhnacademy-be4-ckin/ckin-front/pull/107) | [결제 - 생성](https://github.com/nhnacademy-be4-ckin/ckin-api/pull/99)
 
 - 주문 완료 후 [Toss Payment API](https://developers.tosspayments.com)를 통한 결제 진행
 - 결제 성공/실패에 따른 처리
@@ -240,11 +240,14 @@
 - 회원의 포인트 적립/차감 내역 조회
 
 ### etc.
+> 관련 기술 공유 내용 : [Spring Cloud Netflix Eureka 도입 + 무중단 배포](https://github.com/nhnacademy-be4-ckin/study-materials/tree/main/SpringCloud/Eureka)
 
 - `Spring Cloud Netflix Eureka`
     - 서비스 디스커버리 및 로드밸런싱
-    - 무중단 배포 구현
-- Spring AOP - `@Member` 어노테이션을 통한 Model 객체에 회원 정보 주입
+    - API Server 무중단 배포 구축
+- NHN Cloud Load Balancer
+    - Front Server 무중단 배포 구축
+- Spring AOP 활용 - `@Member` 어노테이션을 통한 Model 객체에 회원 정보 주입
 - `@ExceptionHandler`를 통한 전역 예외 처리
 - 배송비 정책 관리
 - 포인트 적립 정책 관리
