@@ -130,7 +130,7 @@
 
 ### Architecture
 
-![image](https://github.com/nhnacademy-be4-ckin/.github/assets/84575041/a792dad2-74ac-40db-b155-677c482e50e7)
+![architecture](https://github.com/nhnacademy-be4-ckin/.github/assets/84575041/1d703478-41b3-4f41-ae93-00b4cd0e3e45)
 
 
 ### CI/CD
